@@ -10,11 +10,10 @@
 - Root privileges (run with `sudo` or as the root user)
 
 ### Usage
+Run the script from the repository directory with elevated privileges. The script prints progress messages to the console and may prompt for confirmation during filesystem checks.
 
-Run the script from the repository directory:
+### Example invocation
 
 ```bash
 sudo bash root_cleaner.sh
 ```
-
-The script will display progress information and may prompt for confirmation during filesystem checks.
